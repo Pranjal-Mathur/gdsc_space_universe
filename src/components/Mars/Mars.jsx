@@ -56,7 +56,7 @@ const Mars = ()=>{
                             <div className="desc-text">
                                 <p className="font1">Temperature</p>
                                 <p className="font2">+20&deg;<br/>Celsius</p>
-                                </div>
+                            </div>
                     </div>
 
                 </div>

@@ -31,7 +31,7 @@ const Hero = ()=>{
 
                 
                     <div id="h1">
-                    <img className="cover"id="h1"src="../../src/assets/h1.png"/>
+                    <img className="cover"id="h1"src="../../assets/h1.png"/>
                     </div>
                     <div id="h2">
                     <img className="cover"id="h2"src="../../src/assets/h2.png"/>
