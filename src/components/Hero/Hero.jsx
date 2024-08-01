@@ -64,12 +64,12 @@ const Hero = ()=>{
                     <div className="head-box2">
                         <button >Learn More &#9660;</button>
                         <div id="h4">
-                            <img className="cover"id="h4"src="../../src/assets/h4.png"/>
+                            <img className="cover"id="h4"src={h4}/>
                         </div>
                     </div>
 
                     <div id="h8">
-                        <img src="../../src/assets/h8.png"/>
+                        <img src={h8}/>
                     </div>
                     
                     
@@ -82,10 +82,10 @@ const Hero = ()=>{
                 <div className="hero-right">
                 
                 <div id="h6">
-                    <img className="cover"id="h6"src="../../src/assets/h6.png"/>
+                    <img className="cover"id="h6"src={h6}/>
                 </div>
                 <div id="h5">
-                    <img className="cover"id="h5"src="../../src/assets/h5.png"/>
+                    <img className="cover"id="h5"src={h5}/>
                 </div>
 
 
