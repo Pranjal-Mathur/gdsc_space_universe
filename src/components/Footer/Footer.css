@@ -2,7 +2,7 @@
 .footer-content{
     height: 100vh;
     width: 100vw;
-    background-image: url("../../src/assets/footer-bg.png");
+    background-image: url("../../assets/footer-bg.png");
     background-size: cover;
     margin-top: 0;
     display: flex;

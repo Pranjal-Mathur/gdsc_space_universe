@@ -6,7 +6,7 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url("../../src/assets/mars-bg.png");
+    background-image: url("../../assets/mars-bg.png");
     background-size: cover;
 }
 .mars-main{
