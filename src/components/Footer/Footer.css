@@ -1,0 +1,156 @@
+
+.footer-content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../src/assets/footer-bg.png");
+    background-size: cover;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-main{
+    width: 90%;
+    height: 70%;
+    background-color: #1E1E1E;
+    margin: 0 5vw;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5vw;
+    text-align: center;
+    font-size: 1vw;
+    padding-top: 1vw;
+}
+
+.footer-main .desc{
+    height:30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc p{
+    font-size: 1.2vw;
+}
+
+.footer-subscribe{
+    width: 60%;
+    height: 17%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0 15vw;
+    border-radius:50px;
+    
+
+}
+.footer-subscribe p{
+    text-align: center;
+
+}
+.footer-subscribe input{
+    height: 70%;
+    margin-top: 0.5vw;
+    font-size: 1.25vw;
+    border: none;
+    outline: none;
+}
+.footer-subscribe button{
+    background: linear-gradient( to bottom right,#CD1013,#FF0004,#2500FF);
+    color:white;
+    height: 80%;
+    width: 15%;
+    margin-top: 0.25vw;
+    border-radius: 30px;
+    font-size: 1vw;
+    cursor: pointer;
+    font-family: "Orbitron";
+
+}
+
+
+
+.sub-footer{
+    width: 80%;
+    height: 20%;
+    margin:0 9vw;
+    color: white;
+    font-family: "Orbitron";
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron";
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3vw;
+    padding-top: 0.5vw;
+}
+.copyright{
+    font-family: "Inter";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5vw;
+}
+
+@media screen and (max-width: 900px) {
+
+    .copyright {
+        display: none;
+    } 
+    .sub-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-image{
+        height: 10vw;
+        margin: 0 40%;
+    }
+    .items{
+        margin: 0 15vw;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2vw;
+    }
+    .footer-subscribe{
+        height: 10vw;;
+    }
+    .footer-subscribe button{
+        margin-top: 1 vw;
+        width: 15vw;
+    }
+    .footer-subscribe input{
+        color: black;
+    }
+    .logo p{
+        font-size: 3vw;
+    }
+    .desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .desc p{
+        font-size: 2.5vw;
+    }
+    #font{
+        font-size: 4vw;
+    }
+
+}

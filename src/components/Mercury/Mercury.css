@@ -1,0 +1,119 @@
+.Mercury-content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/Mercury-bg.png");
+    background-size: cover;
+    display: flex;
+    gap: 2vw;
+}
+.mercury-main{
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+}
+.mercury-main img{
+    height: 100%;
+    width: 100%;
+}
+.mercury-desc{
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+}
+.card-section1{
+    height: 35%;
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+    gap:4vw;
+    padding-right: 2vw;
+
+}
+.card2{
+    display: flex;
+    background: linear-gradient(to right,#100A33,#170B36,#370D44, #430E49);
+    width: 23vw;
+    height: 100%;
+    border-radius: 10px;
+    /* grid-area: 2vw; */
+    border : 1px solid #430E49;
+    padding-right: 0.8vw;
+}
+ .card-logo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-logo .logo-box{
+    width: 50%;
+    height: 30%;
+    overflow: hidden;
+} 
+
+.card-logo .logo-box img{
+    height: 100%;
+    width:100%;
+} 
+.card-desc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.font1{
+    font-family: "Orbitron";
+    font-size: 1vw;
+}
+.font2{
+    font-weight: bolder;
+    font-family: "Orbitron";
+    font-size: 2.75vw;
+} 
+
+.t1{
+    font-weight: bolder;
+    font-size: 3.5vw;
+    font-family: "Orbitron";
+}
+
+.t2{
+    font-size: 1.5;
+}
+
+.card-section11{
+    width: 100%;
+    height: 35%;
+}
+.font11{
+    font-family: "Orbitron";
+    font-size: 0.8vw;
+}
+
+@media screen and (max-width:600px){
+    .card-section1{
+        display: flex;
+        flex-direction: column;
+        height: 43%;
+        padding-left: 8vw;
+    }
+    .card-section11{
+        height: 27%;
+        padding-left: 8vw;
+    }
+    .card2{
+        height: 65%;
+        width: 90%;
+    }
+    .t1{
+        font-size: 10vw;
+    }
+    .t2{
+        font-size: 3vw;
+    }
+}

@@ -1,0 +1,272 @@
+
+
+.hero-content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../src/assets/Hero.png");
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    height:10%;
+    width: 100%;
+    padding: 0.5vw 2vw;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.logo-image{
+    height:10%;
+    width:10%;
+}
+.logo-image p {
+    height: 100%;
+    width: 75%;
+}
+
+.nav-items{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25vw;
+
+}
+.nav-icons icon{
+    display : none;
+}
+
+.nav-copyright{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1 px solid white; */
+}
+.hero-desc{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.hero-left{
+    height:100%;
+    width:15vw;
+    display: flex;
+    flex-direction: column;
+}
+.hero-center{
+    height: 100%;
+    width: 70vw;
+    /* border: 1px solid white; */
+    overflow: hidden;
+
+}
+.hero-right{
+    height:100%;
+    width:15vw;
+    /* border: 1px solid white; */
+}
+
+#h1{
+   height: 40%;
+   width: 80%;
+   /* border: 1px solid white; */
+   overflow: hidden;
+}
+
+#h2{
+    
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid white; */
+    overflow: hidden;
+}
+
+#h3{
+    
+    height: 10%;
+    width: 8vw;
+    overflow: hidden;
+}
+#h1 img{
+    height: 100%;
+    width: 100%; 
+}
+#h2 img{
+    height: 100%;
+    width: 100%; 
+}
+#h3 img{
+    height: 100%;
+    width: 100%; 
+}
+.hero-right{
+    height:100%;
+    width:25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+#h5{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+#h6{
+    height: 40%;
+    width: 80%;
+    overflow: hidden;
+}
+#h5 img{
+    height: 100%;
+    width: 100%; 
+    overflow: hidden;
+}
+#h6 img{
+    height: 100%;
+    width: 100%; 
+    
+}
+.head-box{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-head{
+    font-size: 3.5vw;
+    font-family: "Orbitron";
+    font-weight: bolder;
+    text-align: center;
+    overflow: hidden;
+    z-index: 2;
+    
+}
+#head-para{
+    font-family: "Inter";
+    /* font-size: 1.25vw; */
+    text-align: center;
+    overflow: hidden;
+}
+.head-box2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+}
+.head-box2 button{
+    background: linear-gradient(to top left, #CD1013,#FF0004,#2500FF);
+    height: 25%;
+    width: 20%;
+    font-family: "Orbitron";
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#h4{
+    height: 30%;
+    width: 30%;
+    /* border: 1px solid white; */
+    overflow: hidden;
+
+}
+#h4 img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#h8{
+    position: absolute;
+    height:7vw;
+    width: 7vw;
+    left:47vw;
+    top:5vw;
+    overflow: hidden;
+    
+}
+
+#h8 img{
+    height: 100%;
+    width: 100%;
+
+}
+
+#Galactic{
+    font-weight: bolder;
+    font-size: 2.5vw;
+    font-family: "Orbitron";
+}
+
+.nav-items .icon{
+    display: none;
+}
+
+@media screen and (max-width:675px){
+    .nav-items p{
+        display: none;
+    }
+    .nav-items .icon{
+        display: block;
+    }
+    .nav-items{
+        width:25%
+    }
+    .nav-logo{
+        width: 30%;
+    }
+    .nav-copyright{
+        width:45%;
+    }
+    #hero-head{
+        font-size: 6vw;
+    }
+    #head-para{
+        font-size: 2.5vw;
+    }
+
+}
+
+@media screen and (max-width:850px){
+    #h8{
+        top: 10vw;
+    }
+    .head-box2 button{
+        height: 20%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:650px){
+    #h8{
+        top: 15vw;
+    }
+}
+@media screen and (max-width:420px){
+    #h8{
+        top: 25vw;
+        height: 20vw;
+        width: 20vw;
+    }
+}

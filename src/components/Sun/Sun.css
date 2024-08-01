@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    /* overflow-x: hidden; */
+    
+}
+
+
+
+.sun-content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../src/assets/Sun-bg.png");
+    background-size: cover;
+}
+.sun-main {
+    height: 40vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.sun-main img{
+    width: 100%;
+    height: 100%;
+}
+
+.sun-desc{
+    height: 60vh;
+    width: 100vw;
+    
+}
+
+
+
+#font{
+    font-family: "Orbitron";
+    font-weight: bolder;
+    font-size:3vw;
+    color: white;
+}
+
+.sun-head{
+    width: 55%;
+    height: 40%;
+    margin-left: 3vw;
+    color: white;
+    font-size: 1.25vw;
+    padding-bottom: 2vw;
+    overflow: hidden;
+}
+
+.card-section{
+    height: 40%;
+    width: 100;
+    display: flex;
+    margin-left: 3vw;
+    gap:4vw;
+    overflow: hidden;
+
+}
+.card1{
+    display: flex;
+    background: linear-gradient(to right,#100A33,#170B36,#370D44, #430E49);
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    border : 1px solid #430E49;
+    overflow: hidden;
+}
+ .card-logo{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-logo .logo-box{
+    width: 50%;
+    height: 30%;
+    overflow: hidden;
+} 
+
+.card-logo .logo-box img{
+    height: 100%;
+    width:100%;
+} 
+.card-desc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.font1{
+    font-family: "Orbitron";
+    font-size: 1vw;
+}
+.font2{
+    font-weight: bolder;
+    font-family: "Orbitron";
+    font-size: 2.75vmax;
+} 
+
+@media screen and (max-width:600px){
+
+    .sun-head{
+        height: 30%;
+        width: 100%;
+        padding-right: 2vw;
+    }
+    .card-section{
+        height:60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card1{
+        width:55%;
+    }
+
+    
+}
+

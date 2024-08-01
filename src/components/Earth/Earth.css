@@ -1,0 +1,98 @@
+.earth-content{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/earth-bg.png");
+    background-size: cover;
+
+}
+.earth-desc{
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+.earth-main{
+    height: 60%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+   
+}
+.earth-main img{
+    height: 100%;
+    width: 100%;
+}
+.earth-rocket{
+    height:25%;
+    width: 10%;
+    position: absolute;
+    top:5.5vw;
+    overflow: hidden;
+
+}
+.earth-rocket img{
+    height: 100%;
+    width: 100%;
+}
+.arrow1{
+    height:25%;
+    width: 10%;
+    position: absolute;
+    top:0;
+    right: 18vw;
+    overflow: hidden;
+}
+.arrow1 img{
+    height: 100%;
+    width: 100%;
+}
+.planet-desc{
+    height: 25%;
+    width: 60%;
+    position: absolute;
+    top:0;
+    right: 28vw;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.planet-desc p{
+    overflow: hidden;
+}
+#moon-head{
+    text-align: right;
+    font-size: 2vw;
+    font-family: "Orbitron";
+    font-weight: bolder;
+    overflow: hidden;
+}
+.planet-desc p{
+    font-size: 1.5vw;
+}
+.earth-desc-box1{
+    width: 60%;
+    height: 100%;
+    padding-left: 3vw;
+    padding-top: 2vw;
+}
+.earth-desc-card{
+    width: 40%;
+    height: 100%;
+}
+
+.earth-desc-box2{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 0;
+}
+
+@media screen and (max-width:600px) {
+    .planet-desc p{
+        font-size: 2.5vw;
+    }
+    #moon-head{
+        font-size: 4vw;
+    }
+}

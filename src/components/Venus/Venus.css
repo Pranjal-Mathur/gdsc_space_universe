@@ -1,0 +1,59 @@
+.venus-content{
+    height:100vh;
+    width: 100vw;
+    background-image: url("../../assets/Venus-bg.png");
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+}
+.venus-desc{
+    height: 100%;
+    width: 50%;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+
+.venus-main{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+.venus-main img{
+    height: 100%;
+    width: 100%;
+}
+
+.venus-cards{
+    height: 70%;
+    width: 100%;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+@media screen and (max-width:600px) {
+    .venus-cards{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .font1{
+        font-size:2vw;
+    }
+    .font2{
+        font-size: 5vw;
+    }
+}
+
+
+
+
