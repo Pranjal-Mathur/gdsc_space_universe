@@ -1,6 +1,13 @@
 import "./Hero.css";
 import eco from "../../assets/eco.png";
-import mecury from '../../assets/h1.png';
+import h1 from '../../assets/h1.png';
+import h2 from "../../src/assets/h2.png";
+import h3 from "../../src/assets/h3.png";
+import h4 from "../../src/assets/h4.png";
+import h5 from "../../src/assets/h5.png";
+import h6 from "../../src/assets/h6.png";
+import h7 from "../../src/assets/h7.png";
+import h8 from "../../src/assets/h8.png";
 
 const Hero = ()=>{
     return(
@@ -33,13 +40,13 @@ const Hero = ()=>{
 
                 
                     <div id="h1">
-                    <img className="cover"id="h1"src={mecury}/>
+                    <img className="cover"id="h1"src={h1}/>
                     </div>
                     <div id="h2">
-                    <img className="cover"id="h2"src="../../src/assets/h2.png"/>
+                    <img className="cover"id="h2"src={h2}/>
                     </div>
                     <div id="h3">
-                    <img className="cover"id="h3"src="../../src/assets/h3.png"/>
+                    <img className="cover"id="h3"src={h3}/>
                     </div>
                 </div>
 
