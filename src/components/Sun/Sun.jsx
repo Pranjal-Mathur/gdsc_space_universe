@@ -1,4 +1,7 @@
-import "./Sun.css"
+import "./Sun.css";
+import sun from "../../assets/sun.png";
+import l1 from "../../assets/l1.png";
+import l2 from "../../assets/l2.png";
 
 
 
@@ -9,7 +12,7 @@ const Sun = ()=>{
 
         <div className="sun-content">
             <div className="sun-main">
-                    <img src="../../src/assets/sun.png"/>
+                    <img src={sun}/>
             </div>
             <div className="sun-desc">
                 <div className="sun-head">
@@ -21,7 +24,7 @@ const Sun = ()=>{
                      <div className="card1">
                         <div className="card-logo">
                             <div className="logo-box">
-                                <img src="../../src/assets/l1.png"/>
+                                <img src={l1}/>
                             </div>
                         </div>
                         <div className="card-desc">
@@ -36,7 +39,7 @@ const Sun = ()=>{
 
                         <div className="card-logo">
                             <div className="logo-box">
-                            <img src="../../src/assets/l2.png"/>
+                            <img src={l2}/>
                             </div>
                         </div>
                         <div className="card-desc">

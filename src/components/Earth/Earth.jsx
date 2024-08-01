@@ -1,4 +1,9 @@
 import "./Earth.css";
+import l1 from "../../assets/l1.png";
+import earth from "../../assets/earth.png";
+import earth-rocket from  "../../assets/earth-rocket.png";
+import arrow1 from "../../assets/arrow1.png";
+
 
 const Earth = ()=>{
 
@@ -18,7 +23,7 @@ const Earth = ()=>{
 
                         <div className="card-logo">
                             <div className="logo-box">
-                            <img src="../../src/assets/l1.png"/>
+                            <img src={l1}/>
                             </div>
                         </div>
                         <div className="card-desc">
@@ -38,12 +43,12 @@ const Earth = ()=>{
 
          
             <div className="earth-main">
-                <img src="../../src/assets/earth.png"/>
+                <img src={earth}/>
                 <div className="earth-rocket">
-                    <img src="../../src/assets/earth-rocket.png"/>
+                    <img src={earth-rocket}/>
                 </div>
                 <div className="arrow1">
-                    <img src="../../src/assets/arrow1.png"/>
+                    <img src={arrow1}/>
                 </div>
                 <div className="planet-desc">
                     <p id="moon-head">Moon Planet</p><br/>

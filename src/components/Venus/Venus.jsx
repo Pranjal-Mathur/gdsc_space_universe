@@ -1,4 +1,7 @@
 import "./Venus.css";
+import l1 from "../../assets/l1.png";
+import l2 from "../../assets/l2.png";
+import venus from "../../assets/venus.png";
 
 const Venus = ()=>{
     return(
@@ -18,7 +21,7 @@ const Venus = ()=>{
 
                     <div className="card-logo">
                         <div className="logo-box">
-                        <img src="../../src/assets/l2.png"/>
+                        <img src={l1}/>
                         </div>
                     </div>
                     <div className="card-desc">
@@ -36,7 +39,7 @@ const Venus = ()=>{
 
                         <div className="card-logo">
                             <div className="logo-box">
-                            <img src="../../src/assets/l2.png"/>
+                            <img src={l2}/>
                             </div>
                         </div>
                         <div className="card-desc">
@@ -59,7 +62,7 @@ const Venus = ()=>{
 
             
         <div className="venus-main">
-                <img src="../../src/assets/venus.png"/>
+                <img src={venus}/>
             </div>
         </div>
 

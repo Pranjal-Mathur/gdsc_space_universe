@@ -1,4 +1,9 @@
 import "./Mars.css";
+import mars from "../../assets/mars.png";
+import arrow2 from "../../assets/arrow2.png";
+import l1 from "../../assets/l1.png";
+import l2 from "../../assets/l2.png";
+import l3 from "../../assets/l3.png";
 
 const Mars = ()=>{
 
@@ -12,9 +17,9 @@ const Mars = ()=>{
                  </div>
                  <div className="mars-block">
                     <div className="mars-image">
-                        <img src="../../src/assets/mars.png"/>
+                        <img src={mars}/>
                         <div className="arrow2">
-                            <img src="../../src/assets/arrow2.png"/>
+                            <img src={arrow2}/>
                         </div>
                        
                     </div>
@@ -34,7 +39,7 @@ const Mars = ()=>{
 
                         <div className="card-logo">
                         <div className="logo-box">
-                            <img src="../../src/assets/l1.png"/>
+                            <img src={l1}/>
                         </div>
                         </div>
                         <div className="card-desc">
@@ -49,7 +54,7 @@ const Mars = ()=>{
 
                         <div className="card-logo">
                             <div className="logo-box">
-                            <img src="../../src/assets/l2.png"/>
+                            <img src={l2}/>
                             </div>
                         </div>
                         <div className="card-desc">
@@ -66,7 +71,7 @@ const Mars = ()=>{
 
                     <div className="card-logo">
                         <div className="logo-box">
-                        <img src="../../src/assets/l3.png"/>
+                        <img src={l3}/>
                         </div>
                     </div>
                     <div className="card-desc">

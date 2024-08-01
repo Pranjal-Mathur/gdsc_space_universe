@@ -1,13 +1,13 @@
 import "./Hero.css";
 import eco from "../../assets/eco.png";
 import h1 from '../../assets/h1.png';
-import h2 from "../../src/assets/h2.png";
-import h3 from "../../src/assets/h3.png";
-import h4 from "../../src/assets/h4.png";
-import h5 from "../../src/assets/h5.png";
-import h6 from "../../src/assets/h6.png";
-import h7 from "../../src/assets/h7.png";
-import h8 from "../../src/assets/h8.png";
+import h2 from "../../assets/h2.png";
+import h3 from "../../assets/h3.png";
+import h4 from "../../assets/h4.png";
+import h5 from "../../assets/h5.png";
+import h6 from "../../assets/h6.png";
+import h7 from "../../assets/h7.png";
+import h8 from "../../assets/h8.png";
 
 const Hero = ()=>{
     return(

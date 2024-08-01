@@ -1,4 +1,5 @@
-import "./Footer.css"
+import "./Footer.css";
+import eco from "../../assets/eco.png";
 
 const Footer = ()=>{
     return(
@@ -17,7 +18,7 @@ const Footer = ()=>{
                 <div className="sub-footer">
                     <div className="logo">
                         
-                            <img src="../../src/assets/eco.png"/>
+                            <img src={eco}/>
                             <p>Galactic.io</p>
                         
                     </div>
