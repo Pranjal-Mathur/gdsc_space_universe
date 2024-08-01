@@ -1,5 +1,6 @@
 import "./Hero.css";
-import mecury from '../../assets/h1.png'
+import eco from "../../assets/eco.png";
+import mecury from '../../assets/h1.png';
 
 const Hero = ()=>{
     return(
@@ -7,7 +8,7 @@ const Hero = ()=>{
             <div className="nav">
                 <div className="nav-logo">
                     
-                        <img src="../../src/assets/eco.png"/>&nbsp;
+                        <img src={eco}/>&nbsp;
                     
                     <p id="Galactic">Galactic.io</p>
                 </div>
