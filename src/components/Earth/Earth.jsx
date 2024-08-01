@@ -1,7 +1,7 @@
 import "./Earth.css";
 import l1 from "../../assets/l1.png";
 import earth from "../../assets/earth.png";
-import earth-rocket from  "../../assets/earth-rocket.png";
+import rocket from  "../../assets/rocket.png";
 import arrow1 from "../../assets/arrow1.png";
 
 
@@ -45,7 +45,7 @@ const Earth = ()=>{
             <div className="earth-main">
                 <img src={earth}/>
                 <div className="earth-rocket">
-                    <img src={earth-rocket}/>
+                    <img src={rocket}/>
                 </div>
                 <div className="arrow1">
                     <img src={arrow1}/>
